@@ -8,9 +8,6 @@
 int main(void)
 {
 	int ch;
-	putchar(ch);
 	for (ch='a'; ch<='z'; ch++)
 		putchar('\n');
-	getch();
-	Return(0);
 }
