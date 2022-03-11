@@ -8,15 +8,14 @@
 int main(void)
 {
 	int ch = 'a';
-	int bi = 'f';
-	int ci = 'r';
-
-	while (ch <= 'd', bi <= 'p', ci <= 'z') 
+	while (ch <= 'z')
 	{
-		putchar((ch), (bi), (ci));
-		ch++;
-	}
-	putchar('\n');
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar (ch);
+			ch++;
+		}
+	}	
+	putchar ('\n');
 	return (0);
 }
-	
