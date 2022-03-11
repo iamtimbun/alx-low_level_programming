@@ -9,10 +9,10 @@ int main(void)
 {
 	int nu = 0;
 	int bi = 'a';
-	
+
 	while (nu <= 9)
 	{
-		putchar( nu % 10 + '0');
+		putchar(nu % 10 + '0');
 		nu++;
 	}
 	while (bi <= 'f')
