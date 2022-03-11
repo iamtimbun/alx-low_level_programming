@@ -9,13 +9,15 @@ int main(void)
 {
 	int ch=0;
 
-	while(ch < 9)
+	for (ch = 0; ch <=9; ch++)
 	{
-		putchar( ch % 10 + '0');
-		ch++;
-		putchar(',');
-		putchar(' ');
+		putchar(ch % 10 + '0');
+		if (ch<9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
-	putchar('9');
+	putchar('\n');
 	return (0);
 }
