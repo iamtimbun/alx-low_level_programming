@@ -12,7 +12,7 @@ int main(void)
 	while (bi <= 'z')
 	{
 		putchar(bi);
-		bi--i;
+		bi--;
 	}
 	putchar('\n');
 	return (0);
