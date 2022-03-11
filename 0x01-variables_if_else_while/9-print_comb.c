@@ -8,7 +8,6 @@
 int main(void)
 {
 	int ch=0;
-	int bi=9;
 
 	while(ch < 9)
 	{
