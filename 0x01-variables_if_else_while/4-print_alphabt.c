@@ -11,20 +11,10 @@ int main(void)
 	int bi = 'f';
 	int ci = 'r';
 
-	while (ch <= 'd') 
+	while (ch <= 'd', bi <= 'p', ci <= 'z') 
 	{
-		putchar(ch);
+		putchar((ch), (bi), (ci));
 		ch++;
-	}
-	while (bi <= 'p')
-	{
-		putchar(bi);
-		bi++;
-	}
-	while (ci <= 'z')
-	{
-		putchar(ci);
-		ci++;
 	}
 	putchar('\n');
 	return (0);
