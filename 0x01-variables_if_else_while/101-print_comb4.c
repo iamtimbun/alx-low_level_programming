@@ -10,23 +10,26 @@ int main(void)
 	int gh;
 	int lh;
 
-	for (ch = 0; ch <= 9; ch++)
+	for (ch = 0; ch <= 7; ch++)
 	{
-	for (gh = 0; gh <=9; gh++)
-	{
-	for (lh = 0; lh <=9; lh++)
-	{
-	if (ch<gh && gh<lh)
-	{
-		putchar ( ch % 100 + '0' );
-		putchar ( gh % 100 + '0' );
-		putchar ( lh % 100 + '0' );
-		putchar (',');
-		putchar (' ');
+		for (gh = 1; gh <= 8; gh++)
+		{
+			for (lh = 2; lh <= 9; lh++)
+			{
+				if (ch < 9)
+				{
+					putchar ((ch % 100) + '0');
+					putchar ((gh % 100) + '0');
+					putchar ((lh % 100) + '0');
+					if (ch != 9)
+					{
+						putchar (',');
+						putchar (' ');
+					}
+				}
+			}
+		}
 	}
-	}
-	}
-	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
