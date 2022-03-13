@@ -9,17 +9,20 @@ int main(void)
 	int ch;
 	int gh;
 
-	for(ch=0; ch<=9; ch++)
+	for (ch = 0; ch <= 9; ch++)
 	{
-		for(gh=1; gh<=9; gh++)
+		for (gh = 1; gh <= 9; gh++)
 		{
-			putchar((ch % 10) + '0');
-			putchar((gh % 10) + '0');
-			putchar(',');
-			putchar(' ');
+			if (ch < gh)
+			{
+				putchar((ch % 10) + '0');
+				putchar((gh % 10) + '0');
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
 
