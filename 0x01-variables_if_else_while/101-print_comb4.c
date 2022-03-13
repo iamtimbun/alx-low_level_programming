@@ -16,12 +16,12 @@ int main(void)
 		{
 			for (lh = 2; lh <= 9; lh++)
 			{
-				if (ch < 9)
+				if (ch < gh && gh < lh)
 				{
 					putchar ((ch % 100) + '0');
 					putchar ((gh % 100) + '0');
 					putchar ((lh % 100) + '0');
-					if (ch != 9)
+					if (ch != 7)
 					{
 						putchar (',');
 						putchar (' ');
