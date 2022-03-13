@@ -17,8 +17,11 @@ int main(void)
 			{
 				putchar((ch % 10) + '0');
 				putchar((gh % 10) + '0');
-				putchar(',');
-				putchar(' ');
+				if (ch < 9)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
