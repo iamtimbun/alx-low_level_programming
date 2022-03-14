@@ -10,15 +10,18 @@ int main(void)
 	int ch;
 	int gh;
 
-	for (ch = 0; ch <= 9; ch ++)
-	{	
-		for (gh = 1; gh <= 9; gh++)
+	for (ch = 0; ch < 100; ch++)
+	{
+		for (gh = 0; gh < 100; gh++)
 		{
-			if (ch<gh)
+			if (ch < gh)
 			{
-				putchar (((ch/10) % 10) + '0');
-				putchar (((gh/10) % 10) + '0');
-				if ( ch !=9)
+				putchar (((ch / 10) % 10) + '0');
+				putchar (ch % 10 + '0');
+				putchar (' ');
+				putchar (((gh / 10) % 10) + '0');
+				putchar (gh % 10 + '0');
+				if (ch != 98)
 				{
 					putchar (',');
 					putchar (' ');
