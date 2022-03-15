@@ -11,6 +11,8 @@
 int _islower(int c);
 int main (void)
 {
+	int c;
+
 	if(_islower(c) == 0)
 	{
 		_putchar(1);
