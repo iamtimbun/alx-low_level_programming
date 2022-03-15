@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include "main.h"
 
 /**
   *int _islower - check for small case
@@ -9,8 +10,11 @@
 
 int _islower(int c)
 {
-	char c;
-	if(_islower(c))
+	if(_islower(c) == 0)
 	{
-		return (1);
+		printf("is lower");
+	}else{
+		printf("not lower");
 	}
+	return 0;
+}
