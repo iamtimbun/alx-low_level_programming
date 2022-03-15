@@ -3,18 +3,18 @@
 #include "main.h"
 
 /**
-  *int _islower - check for small case
+  *_islower - check for small case
   *
   *Return: Always 0.
   */
 
 int _islower(int c)
 {
-	if(_islower(int c) == 0)
+	if(_islower(c) == 0)
 	{
-		printf(1);
+		_putchar(1);
 	}else{
-		printf(0);
+		_putchar(0);
 	}
 	return 0;
 }
