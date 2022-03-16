@@ -4,7 +4,7 @@
 
 /**
   *print_sign - print the sign of a number
-  *
+  *@n: Notation
   *Return: many things
   */
 int print_sign(int n)
@@ -17,7 +17,7 @@ int print_sign(int n)
 	{
 		_putchar (48);
 		return (0);
-	} else if (n < 0)
+	} else
 	{
 		_putchar ('-');
 		return (-1);
