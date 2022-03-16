@@ -10,11 +10,18 @@
 
 void jack_bauer(void)
 {
-	int n;
-	if (n <= 24)
+	int a, b;
+
+	for (a = 0; a <= 23; a++)
 	{
-		_putchar (n);
-		n++;
-		_putchar ('\n');
+		for (b = 0; b <= 59; b++)
+		{
+			_putchar((a / 10) % 10 + '0');
+			_putchar(a % 10 + '0');
+			_putchar(':');
+			_putchar((b / 10) % 10 + '0');
+			_putchar(b % 10 + '0');
+			_putchar('\n');
+		}
 	}
 }				
