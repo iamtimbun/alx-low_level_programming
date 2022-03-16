@@ -5,7 +5,7 @@
 /**
   *_isalpha - check if it's an alphabet
   *@c: parameter
-  *Return: Always 0.
+  *Return: Anything you like.
   */
 
 int _isalpha(int c)
