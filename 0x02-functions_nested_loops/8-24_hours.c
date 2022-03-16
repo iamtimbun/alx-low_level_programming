@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
-  *jack_bauer(void) - print numbers
+  *jack_bauer - print numbers
   *
-  *return: void
+  *Return: 0
   */
 
 void jack_bauer(void)
@@ -24,4 +24,4 @@ void jack_bauer(void)
 			_putchar('\n');
 		}
 	}
-}				
+}			
