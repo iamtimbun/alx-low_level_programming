@@ -6,6 +6,7 @@
   *print_line - print 10 times
   *Return: 0
   *@n: parameter
+  *@a: parameter
   */
 
 void print_line(int n)
@@ -22,6 +23,6 @@ void print_line(int n)
 		{
 			_putchar ('_');
 		}
-		_putchar ('\n');
+	_putchar ('\n');
 	}
 }
