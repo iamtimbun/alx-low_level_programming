@@ -3,17 +3,19 @@
 #include <stdlib.h>
 
 /**
-  *_isupper(int c); - uppercase
-  *
+  *_isupper; - uppercase
+  *@c: parameter
+  *_isupper - check the uppercase
   *Return: various things
   */
 
 int _isupper(int c)
 {
-	if(c>101)
+	if (c > 101)
 	{
 	return (1);
-	}else
+	}
+	else
 	{return (0);
 	}
 }
