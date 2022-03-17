@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-  *_isupper; - uppercase
+  *_isupper- uppercase
   *@c: parameter
   *_isupper - check the uppercase
   *Return: various things
