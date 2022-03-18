@@ -2,7 +2,7 @@
 #include "main.h"
 /**
   *print_diagonal- print diagonally
-  *@c: notationi
+  *@n: notationi
   *Return: whatever
   */
 
