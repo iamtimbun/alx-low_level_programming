@@ -3,6 +3,8 @@
 /**
   *swap_int- Swap Numbers
   *
+  *@a: parameter
+  *@b: parameter
   *Return: 0
   */
 void swap_int(int *a, int *b)
@@ -10,7 +12,7 @@ void swap_int(int *a, int *b)
 	int c = *a;
 	int d = *b;
 	int e;
-	
+
 	e = c;
 	c = d;
 	d = e;
