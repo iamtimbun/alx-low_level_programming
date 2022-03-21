@@ -3,8 +3,9 @@
 
 /**
   *_puts- put
+  *puts- alternative put
   *Return:0
-  @str: parameter
+  *@str: parameter
   */
 
 void _puts(char *str)
