@@ -3,12 +3,12 @@
 #include <string.h>
 
 /**
-  *int _strlen-Show length
-  *
-  *Return 0
+  *_strlen-Show length
+  *@s: parameter
+  *Return: 0
   */
 
 int _strlen(char *s)
 {
-	return(strlen(s));
+	return (strlen(s));
 }
