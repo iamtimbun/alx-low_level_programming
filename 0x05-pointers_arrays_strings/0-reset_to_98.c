@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
-  *void reset_to_98 - Reset to points
-  *
+  *reset_to_98 - Reset to points
+  *@n : number
   *Return: 0
   */
 
