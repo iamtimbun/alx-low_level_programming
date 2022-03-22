@@ -2,13 +2,18 @@
 #include "main.h"
 
 /**
-  *_puts- put
-  *puts- alternative put
-  *Return:0
-  *@str: parameter
-  */
+*_puts - a function that prints a string, followed by a new line, to stdout
+*@str: pointer
+*Return: string
+*/
 
 void _puts(char *str)
 {
-	puts(str);
+	int i;
+
+	for (i = 0; str[i] != '\0'; ++i)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
