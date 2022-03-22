@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 
 /**
  *print_rev- reverse print
@@ -8,13 +9,16 @@
  */
 void print_rev(char *s)
 {
-	int i, len, temp;
-	len = strlen(str1);
-
-	for (i = 0; i < len/2; i++)
+	int i = 0;
+	int j = 0;
+	scanf ("%s", str1);
+	j = strlen (str1) - 1;
+	while (i < j)
 	{
-		temp = str1[i];
-		str[i] = str1[len - i - 1];
-		str1[len - i - 1] = temp:
+		temp = str1[j];
+		str1[j] = str1[i];
+		str1[i] = temp;
+		i++;
+		j--;
 	}
 }
