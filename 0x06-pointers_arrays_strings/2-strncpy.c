@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * @_strncpy- String copy
+ * _strncpy: String copy
  * @n: integer
  * @Return: 0
  */
@@ -15,5 +15,5 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = src[i];
 	for ( ; i < n; i++)
 		dest[i] = '\0';
-	return dest;
+	return (dest);
 }
