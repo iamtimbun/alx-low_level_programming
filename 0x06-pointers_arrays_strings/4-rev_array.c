@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
- * reverse_array- reverse the array
- *
+/**
+ *reverse_array - reverse the array
+ *@a: parameter
+ *@n: parameter
+ *return: whatever
  */
 
 void reverse_array(int *a, int n)
