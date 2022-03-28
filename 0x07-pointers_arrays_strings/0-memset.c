@@ -3,12 +3,15 @@
 #include <string.h>
 
 /**
- * main
- *
+ * _memset- fills memory with constant byte
+ * main- Main cruise
+ * @s: string
+ * @b: constant byte
+ * @n: number of bytes
+ * Return: memset result
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	memset (n);
-	return (s);
+	return (memset(s, b, n));
 }
