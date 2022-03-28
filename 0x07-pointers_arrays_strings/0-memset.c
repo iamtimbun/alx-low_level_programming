@@ -4,7 +4,6 @@
 
 /**
  * _memset- fills memory with constant byte
- * main- Main cruise
  * @s: string
  * @b: constant byte
  * @n: number of bytes
