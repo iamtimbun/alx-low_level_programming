@@ -22,6 +22,6 @@ int main(int argc, char *argv[])
 			return (1);
 		}
 	}
-	printf ("%d\n", mul);
+	printf("%d\n", mul);
 	return (0);
 }
