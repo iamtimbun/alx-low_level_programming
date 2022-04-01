@@ -16,12 +16,12 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		mul = mul * atoi(argv[i]);
-		printf("%d\n", mul);
-		if (i < 1)
+		if (i < 0)
 		{
-			printf("Error\n");
+			printf("Error");
 			return (1);
 		}
 	}
+	printf ("%d\n", mul);
 	return (0);
 }
