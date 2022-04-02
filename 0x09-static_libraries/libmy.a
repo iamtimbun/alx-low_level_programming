@@ -1,6 +1,23 @@
 !<arch>
 0-isupper.o/    0           0     0     644     0         `
-0-memset.o/     0           0     0     644     0         `
+0-memset.o/     0           0     0     644     269       `
+#include "main.h"
+#include <stdio.h>
+#include <string.h>
+
+/**
+*_memset - fills memory with a constant byte
+*@s: string
+*@b: value to be filled
+*@n: number of bytes
+*Return: memset result
+*/
+
+char *_memset(char *s, char b, unsigned int n)
+{
+	return (memset(s, b, n));
+}
+
 0-strcat.o/     0           0     0     644     0         `
 1-isdigit.o/    0           0     0     644     0         `
 1-memcpy.o/     0           0     0     644     0         `
