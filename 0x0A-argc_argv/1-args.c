@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *main(int argc, char *argv[])
+ *main(int argc, char *argv[])- main
  *@argc: argument
  *@argv: argument
  *Return: 0
