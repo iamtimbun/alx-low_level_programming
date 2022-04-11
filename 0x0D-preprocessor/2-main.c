@@ -2,14 +2,12 @@
 #include <stdio.h>
 
 /**
- * main(int argc, char *argv[])- main function
- * @argc: argument
- * @argv: argument
+ * main- main function
  * Return: 0
  */
 
-int main(int argc, char ** argv)
+int main(void)
 {
-    printf("%s", argv[0]);
-    return 0;
+	printf("%s\n", __FILE__);
+	return (0);
 }
