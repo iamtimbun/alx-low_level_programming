@@ -1,7 +1,8 @@
-#include <stdio.h>
+#ifndef DOG_H
+#define DOG_H
 /**
- * main - type
  * struct dog - structure
+ * main - mian
  * Return: 0
  */
 
@@ -11,3 +12,4 @@ typedef struct dog /*dog*/
 	float age; /*age of float*/
 	char *owner; /*who is the owner*/
 } dog;
+#endif
