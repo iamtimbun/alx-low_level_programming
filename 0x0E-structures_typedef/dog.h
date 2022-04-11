@@ -2,14 +2,16 @@
 #define DOG_H
 /**
  * struct dog - structure
- * main - mian
+ * @name: Name
+ * @age: age
+ * @owner: owner
  * Return: 0
  */
 
-typedef struct dog /*dog*/
+typedef struct dog
 {
-	char *name; /*Name of character*/
-	float age; /*age of float*/
-	char *owner; /*who is the owner*/
+	char *name;
+	float age;
+	char *owner;
 } dog;
 #endif
