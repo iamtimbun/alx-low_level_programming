@@ -20,6 +20,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		p = va_arg(ap, char *);
+		if (p == NULL)
+		{
+			p = "(nil)";
+		}
 		if (separator != NULL && i < n - 1)
 		{
 			printf("%s%s", p, separator);
@@ -27,10 +31,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		else if (separator == NULL && i < n - 1)
 		{
 			printf("%s", p);
-		}
-		else if (p == NULL)
-		{
-			p = "(nil)";
 		}
 		else if (i == n - 1)
 		{
